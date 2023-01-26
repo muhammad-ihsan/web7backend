@@ -1,0 +1,220 @@
+body{
+    background-color: bisque;
+    font-family: roboto, sans-serif;
+    list-style-type: none;
+}
+.imgcontainer{
+    text-align: center;
+    margin: 24px 0 12px 0;
+    color: white;
+}
+.imgcontainer p{
+    font-size: 24px;
+    font-weight: bold;
+}
+.imgcontainer img{
+    width: 50%;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    margin: 0;
+}
+#wrapper{
+    display: flex;
+    min-height: 100vh;
+    padding: 15px;
+}
+#menu{
+    background-color: blueviolet;
+    width: 250px;
+}
+nav{
+    display: block;
+    margin-top: 20px;
+}
+nav a{
+    color: white;
+    display: list-item;
+    padding: 20px;
+}
+nav a i{
+    width: 30px;
+}
+nav a:hover{
+    color: gold;
+    background-color: rgb(167, 142, 0);
+}
+.header{
+    width: 98%;
+    padding: 5px 0;
+    text-align: center;
+    color: white;
+    background-color: tomato;
+}
+main{
+    background-color: white;
+    margin: 0 15px;
+    padding: 25px;
+    flex-grow: 1;
+    width: 75%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 29%;
+    padding: 15px;
+    background-color: brown;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    margin: 0 4px;
+}
+.card:nth-child(2){
+    background-color: blueviolet;
+}
+.card:nth-child(3){
+    background-color: black;
+}
+.card .part{
+    float: left;
+    width: 70%;
+}
+.card i{
+    font-size: 70px;
+    width: 30%;
+    margin: auto;
+}
+
+
+/*banner*/
+
+.initial{
+    display: contents;
+}
+.button{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    display: block;
+    width: 50%;
+    text-align: center;
+}
+form.search input{
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid gray;
+    float: left;
+    width: 70%;
+    background: #f1f1f1;
+    border-radius: 20px 0 0 20px;
+}
+form.search button{
+    float: left;
+    width: 20%;
+    padding: 10px;
+    margin-top: 8px;
+    background: #2196f3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid gray;
+    border-left: none;
+    cursor: pointer;
+    border-radius: 0 20px 20px 0;
+}
+#category{
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+#category th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #04aa6d;
+    color: white;
+    font-weight: 800;
+}
+#category td{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+.edit-btn{
+    font-size: 15px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+}
+.delete-btn{
+    font-size: 15px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+}
+
+.w200{
+    width: 200px;
+}
+
+/*form css*/
+form{
+    width: 80%;
+    margin: 0 auto;
+}
+input,textarea,select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.w50{
+    width: 50%;
+}
+.w100{
+    width: 100%;
+    padding: 5px;
+}
+.t-center{
+    text-align: center;
+}
+.form-control{
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+}
+.succes{
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+.cancel{
+    background-color: red;
+    padding: 10px;
+    color: white;
+}
+.form-ctr{
+    margin: 20px 0;
+}
+.tox-tinymce{
+    width: 100%;
+    margin: 20px 0;
+}

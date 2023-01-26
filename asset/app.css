@@ -1,0 +1,81 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    border: 5px solid blueviolet;
+    width: 550px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+input,textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+button{
+    background-color: greenyellow;
+    color: indigo;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 20px;
+}
+button:hover{
+    opacity: 0.7;
+}
+h2{
+    color: white;
+    font-size: 35px;
+}
+.container{
+    padding: 20px;
+}
+.imgicon{
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+.imgicon img{
+    width: 35%;
+    border-radius: 50%;
+}
+.footer{
+    padding: 10px;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.footer p{
+    width: 100%;
+    font-weight: 400;
+    color: black;
+}
+.footer a{
+    width: 100%;
+    background-color: crimson;
+    color: white;
+    padding: 15px;
+    border-radius: 25px;
+
+}
+.login{
+    width: 500px;
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    border-radius: 25px;
+    margin: 25px 0;
+    
+}
